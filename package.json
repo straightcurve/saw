@@ -17,5 +17,8 @@
 		"@babel/preset-typescript": "^7.22.15",
 		"@preconstruct/cli": "^2.8.1",
 		"typescript": "^5.2.2"
-	}
+	},
+  "repository": {
+    "url": "https://github.com/straightcurve/saw"
+  }
 }
