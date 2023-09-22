@@ -1,0 +1,21 @@
+{
+	"name": "@sweetacid/saw",
+	"version": "1.0.0",
+	"description": "wraps a sync/async function call in a try/catch",
+	"main": "dist/sweetacid-saw.cjs.js",
+	"module": "dist/sweetacid-saw.esm.js",
+	"scripts": {
+		"postinstall": "preconstruct dev",
+		"build": "npm run preconstruct build",
+		"preconstruct": "preconstruct",
+		"release": "npm run build && npm publish --access=public"
+	},
+	"author": "A2 <antoniu.ilea@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/preset-env": "^7.22.20",
+		"@babel/preset-typescript": "^7.22.15",
+		"@preconstruct/cli": "^2.8.1",
+		"typescript": "^5.2.2"
+	}
+}
