@@ -369,4 +369,4 @@ var saw = /*#__PURE__*/function () {
   };
 }();
 
-export { saw as default };
+export { saw as default, saw };
